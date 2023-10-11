@@ -102,6 +102,10 @@
     margin: 1rem 0;
 }
 
+.section03 .fp-prev {
+    background: #000;
+}
+
 @keyframes upDown {
     0% {
         bottom: 1rem;
