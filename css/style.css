@@ -24,3 +24,21 @@ section {
     font-family: 'Popping', sans-serif;
     padding: 5rem 0;
 }
+
+.section .title {
+    margin-bottom: 3rem;
+}
+
+.section .title h4 {
+    font-size: 1.35rem;
+    color: #2dc8ff;
+    position: relative;
+}
+
+.section .title h2 {
+    font-size: 3.5rem;
+}
+
+.section .title p {
+    font-size: 1.15rem;
+}

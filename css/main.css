@@ -86,6 +86,12 @@
     float: left;
     background-color: white;
     margin-right: 2.5%;
+    bottom: 0;
+}
+
+.section02 .do-me .do-inner.on {
+    display: block;
+
 }
 
 .section02 .do-me .do-inner:last-child{
@@ -102,8 +108,9 @@
     margin: 1rem 0;
 }
 
-.section03 .fp-prev {
-    background: #000;
+.section03 .container .slide .portfolio-me img {
+    width: 250px;
+    height:250px;
 }
 
 @keyframes upDown {

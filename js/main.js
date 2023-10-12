@@ -1,5 +1,6 @@
 $(function () {
   $("#fullpage").fullpage({
+    anchors: ["firstPage", "secondPage", "thirdPage", "lastPage"],
     sectionsColor: ["#ffffff", "#f9f9f9", "#ffffff", "#f9f9f9", "#ffffff"],
     loopTop: false,
     loopBottom: false,
@@ -8,10 +9,9 @@ $(function () {
       var origin = this;
 
       if (origin.index == 0 && direction == "down") {
-        document.querySelector("#header").style.color = "#000000";
-        document.querySelector("#fp-nav").style.color = "000000";
+        $("#header").css("color", "#000000");
       } else if (origin.index == 1 && direction == "up") {
-        document.querySelector("#header").style.color = "#f9f9f9";
+        $("#header").css("color", "#f0f0f0");
       }
     },
   });
