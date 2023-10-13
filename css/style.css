@@ -42,3 +42,40 @@ section {
 .section .title p {
     font-size: 1.15rem;
 }
+
+progress {
+    appearance: none;
+}
+
+#progress_html::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 0;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progress_html::-webkit-progress-value {
+    border-radius: 0;
+    background:#fc490b;
+}
+
+#progress_css::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 0;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progress_css::-webkit-progress-value {
+    border-radius: 0;
+    background: #0071bb;
+}
+
+#progress_js::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 0;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progress_js::-webkit-progress-value {
+    border-radius: 0;
+    background: #ffd000;
+}
