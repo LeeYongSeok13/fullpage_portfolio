@@ -79,3 +79,17 @@ progress {
     border-radius: 0;
     background: #ffd000;
 }
+
+.fp-prev {
+    background: #000;
+    color: #ff0000;
+    z-index: 999;
+    margin: 0 0 0 5rem;
+}
+
+.fp-next {
+    background: #000;
+    color: #ff0000;
+    z-index: 999;
+    margin: 0 5rem 0 0;
+}
