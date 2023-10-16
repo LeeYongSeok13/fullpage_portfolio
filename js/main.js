@@ -5,6 +5,7 @@ $(function () {
     loopTop: false,
     loopBottom: false,
     navigation: true,
+    slideNavigation: true,
     onLeave: function (origin, destination, direction, trigger) {
       var origin = this;
 
