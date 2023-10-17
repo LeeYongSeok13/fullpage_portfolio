@@ -44,7 +44,18 @@ section {
 }
 
 progress {
+    position: relative;
     appearance: none;
+}
+
+progress:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    color: #000000;
+    content: attr(value)'%';
 }
 
 #progress_html::-webkit-progress-bar {
@@ -78,6 +89,17 @@ progress {
 #progress_js::-webkit-progress-value {
     border-radius: 0;
     background: #ffd000;
+}
+
+#progress_participate::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 0;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progress_participate::-webkit-progress-value {
+    border-radius: 0;
+    background: #4452cd;
 }
 
 .fp-prev {
