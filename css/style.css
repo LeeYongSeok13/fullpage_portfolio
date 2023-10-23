@@ -103,7 +103,7 @@ progress:after {
 }
 
 .fp-prev {
-    background: #000;
+    background: transparent;
     color: #ff0000;
     z-index: 999;
     margin: 0 0 0 5rem;
@@ -114,4 +114,8 @@ progress:after {
     color: #ff0000;
     z-index: 999;
     margin: 0 5rem 0 0;
+}
+
+fp-arrow {
+    border-color: #000000;
 }
