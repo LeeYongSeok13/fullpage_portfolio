@@ -11,7 +11,9 @@ a, a:link, a:visited {
     text-decoration: none;
 }
 
-li {
+ul,
+ol,
+dl {
     list-style: none;
 }
 
