@@ -69,7 +69,6 @@
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
-
     color: white;
     animation: upDown 1s ease-in-out infinite;
 }
@@ -119,7 +118,7 @@
 }
 
 .section02 .do-me .do-inner .content h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 1rem 0;
 }
 
@@ -132,6 +131,7 @@
     display: block;
     clear: both;
 }
+
 
 .section03 .portfolio-me .portfolio-inner .portfolio-inner-left {
     float: left;
