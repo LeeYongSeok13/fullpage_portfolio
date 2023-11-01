@@ -122,7 +122,7 @@
     margin: 1rem 0;
 }
 
-.section03 .portfolio-me {
+.section03 .slide .portfolio-me {
     padding: 2rem;
 }
 
@@ -131,7 +131,6 @@
     display: block;
     clear: both;
 }
-
 
 .section03 .portfolio-me .portfolio-inner .portfolio-inner-left {
     float: left;
@@ -165,6 +164,19 @@
 
 .section03 .container .portfolio-inner-left .skills ul li:nth-child(3) i {
     color: #ffd000;
+}
+
+.section03 .container .portfolio-inner-right {
+    float: left;
+    width: 50%;
+}
+
+.section03 .container .portfolio-inner-right figure {
+    position: relative;
+    left: 0px;
+    background: url('../img/Computer.png') no-repeat center center/cover;
+    overflow:hidden;
+    z-index: 998;
 }
 
 @keyframes upDown {
