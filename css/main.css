@@ -97,9 +97,26 @@
     color: #fc490b;
 }
 
+.section02 .do-me .do-inner:nth-child(1):hover {
+    background-color: #fc490b;
+    color: #ffffff;
+}
+
+.section02 .do-me .do-inner:nth-child(1):hover .icon i {
+    color: #ffffff;
+}
 .section02 .do-me .do-inner:nth-child(2) .icon i {
     font-size: 2.5rem;
     color: #0071bb;
+}
+
+.section02 .do-me .do-inner:nth-child(2):hover {
+    background-color: #0071bb;
+    color: #ffffff;
+}
+
+.section02 .do-me .do-inner:nth-child(2):hover .icon i {
+    color: #ffffff;
 }
 
 .section02 .do-me .do-inner:nth-child(3) .icon i {
@@ -107,14 +124,42 @@
     color: #ffd000;
 }
 
+.section02 .do-me .do-inner:nth-child(3):hover {
+    background-color: #ffd000;
+    color: #ffffff;
+}
+
+.section02 .do-me .do-inner:nth-child(3):hover .icon i {
+    color: #ffffff;
+}
+
 .section02 .do-me .do-inner:nth-child(4) .icon i {
     font-size: 2.5rem;
     color: #61dbfb;
 }
 
+
+.section02 .do-me .do-inner:nth-child(4):hover {
+    background-color: #61dbfb;
+    color: #ffffff;
+}
+
+.section02 .do-me .do-inner:nth-child(4):hover .icon i {
+    color: #ffffff;
+}
+
 .section02 .do-me .do-inner:nth-child(5) .icon i {
     font-size: 2.5rem;
     color: #7b09f8;
+}
+
+.section02 .do-me .do-inner:nth-child(5):hover {
+    background-color: #7b09f8;
+    color: #ffffff;
+}
+
+.section02 .do-me .do-inner:nth-child(5):hover .icon i {
+    color: #ffffff;
 }
 
 .section02 .do-me .do-inner .content h3 {
@@ -136,17 +181,6 @@
     clear: both;
 }
 
-.section03 .portfolio-me .portfolio-inner{
-    float: left;
-    background: #f0f0f0;
-    padding: 1rem 1rem 1.5rem 1.5rem;
-}
-
-.section03 .container .slide .portfolio-me img {
-    width: 250px;
-    height:250px;
-}
-
 .section03 .container .portfolio-inner .skills ul li {
     padding: 0.3rem;
 }
@@ -163,6 +197,15 @@
     color: #ffd000;
 }
 
+.section04 .container .about-self .about-left {
+    float: left;
+    width: 50%;
+}
+
+.section04 .container .about-self .about-right {
+    float: right;
+    width: 50%;
+}
 @keyframes upDown {
     0% {
         bottom: 1rem;

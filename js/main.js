@@ -1,7 +1,14 @@
 $(function () {
   $("#fullpage").fullpage({
-    anchors: ["firstPage", "secondPage", "thirdPage", "lastPage"],
-    sectionsColor: ["#ffffff", "#f9f9f9", "#ffffff", "#f9f9f9", "#ffffff"],
+    anchors: ["firstPage", "secondPage", "thirdPage", "forthPage", "lastPage"],
+    sectionsColor: [
+      "#ffffff",
+      "#f9f9f9",
+      "#ffffff",
+      "#f9f9f9",
+      "#ffffff",
+      "f9f9f9",
+    ],
     loopTop: false,
     loopBottom: false,
     navigation: true,
@@ -15,5 +22,8 @@ $(function () {
         $("#header").css("color", "#f0f0f0");
       }
     },
+  });
+  $("#header .container nav ul li:nth-child(1) a").on("click", function () {
+    $("#header").css("color", "#f0f0f0");
   });
 });
