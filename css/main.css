@@ -258,6 +258,11 @@
     line-height: 1.5;
     font-size: 1.2rem;
 }
+
+.section04 p {
+    font-size: 2rem;
+    font-weight: 500;
+}
 @keyframes upDown {
     0% {
         bottom: 1rem;
