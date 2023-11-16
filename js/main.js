@@ -27,15 +27,15 @@ $(function () {
     $("#header").css("color", "#f0f0f0");
   });
   $("#header .container nav ul li:nth-child(2) a").on("click", function () {
-    $("header").css("color", "#000000");
+    $("#header").css("color", "#000000");
   });
   $("#header .container nav ul li:nth-child(3) a").on("click", function () {
-    $("header").css("color", "#000000");
+    $("#header").css("color", "#000000");
   });
   $("#header .container nav ul li:nth-child(4) a").on("click", function () {
-    $("header").css("color", "#000000");
+    $("#header").css("color", "#000000");
   });
   $("#header .container nav ul li:nth-child(5) a").on("click", function () {
-    $("header").css("color", "#000000");
+    $("#header").css("color", "#000000");
   });
 });
