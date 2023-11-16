@@ -38,4 +38,9 @@ $(function () {
   $("#header .container nav ul li:nth-child(5) a").on("click", function () {
     $("#header").css("color", "#000000");
   });
+  $(".portfolio-inner").slick({
+    centerMode: true,
+    centerPadding: "60px",
+    slidesToShow: 3,
+  });
 });

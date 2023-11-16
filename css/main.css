@@ -182,6 +182,18 @@
     clear: both;
 }
 
+.section03 .portfolio-me .portfolio-inner {
+    display: flex;
+    float: left;
+}
+
+.section03 .portfolio-me .portfolio-inner > div {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000000;
+    padding: 2rem;
+}
+
 .section03 .container .portfolio-inner .skills ul li {
     padding: 0.3rem;
 }
