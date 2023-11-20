@@ -187,11 +187,22 @@
     float: left;
 }
 
-.section03 .portfolio-me .portfolio-inner > div {
-    width: 500px;
+.section03 .portfolio-me .portfolio-inner {
+    width: 1200px;
     height: 500px;
     border: 1px solid #000000;
     padding: 2rem;
+}
+
+.section03 .portfolio-me .portfolio-inner figure {
+    border: 1px solid #000000;
+    text-align: center;
+    height: 434px;
+}
+
+.section03 .portfolio-me .portfolio-inner figure img {
+    width: 200px;
+    height: 250px;
 }
 
 .section03 .container .portfolio-inner .skills ul li {

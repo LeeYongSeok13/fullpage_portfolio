@@ -40,7 +40,7 @@ $(function () {
   });
   $(".portfolio-inner").slick({
     centerMode: true,
-    centerPadding: "60px",
-    slidesToShow: 3,
+    centerPadding: "30px",
+    slidesToShow: 1,
   });
 });
