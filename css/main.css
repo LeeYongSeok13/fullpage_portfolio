@@ -287,6 +287,86 @@
     font-size: 2rem;
     font-weight: 500;
 }
+
+.section05 .contact-me::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.section05 .contact-me .left {
+    width: 30%;
+    float: left;
+}
+
+.section05 .contact-me .left .card {
+    border:1px solid #aaaaaa;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.section05 .contact-me .left .card .icon i {
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+.section05 .contact-me .right {
+    float:left;
+    width: 65%;
+    margin-left: 5%;
+    margin-bottom: 2rem;
+    border:1px solid #aaaaaa;
+    padding: 1rem;
+}
+
+.section05.contact .contact-me .right .form-group {
+    margin-bottom: 1.25rem;
+}
+
+.section05 .contact-me .right .form-group label {
+    display: block;
+    margin-bottom: 0.85rem;
+}
+
+.section05 .contact-me .right .form-group {
+    margin-bottom: 1.25rem;
+}
+
+.section05 .contact-me .right .form-group label {
+    display: block;
+    margin-bottom: 0.85rem;
+}
+
+.section05 .contact-me .right .form-group input {
+    padding: 0.625rem;
+    width: 100%;
+    outline: none;
+    border:1px solid #aaaaaa;
+    border-radius: 10px;
+}
+
+.section05 .contact-me .right .from-group input:focus {
+    border:1px solid #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.section05 .contact-me .right .form-group textarea {
+    height: 300px;
+    width: 100%;
+    resize: none;
+    border: 1px solid #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.section05 .contact-me .right button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #3ddbfb;
+    border: none;
+    color:black;
+}
 @keyframes upDown {
     0% {
         bottom: 1rem;
