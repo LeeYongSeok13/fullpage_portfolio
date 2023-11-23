@@ -353,14 +353,14 @@
 }
 
 .section05 .contact-me .right .form-group textarea {
-    height: 300px;
+    height: auto;
     width: 100%;
     resize: none;
     border: 1px solid #719ECE;
     box-shadow: 0 0 10px #719ECE;
 }
 
-.section05 .contact-me .right button {
+.section05 .contact-me .right .button {
     width: 100%;
     padding: 1rem;
     background-color: #3ddbfb;

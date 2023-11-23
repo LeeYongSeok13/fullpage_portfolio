@@ -12,6 +12,7 @@
     <script src="./js/jquery-3.7.1.min.js"></script>
     <script src="./js/fullpage.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/email.min.js"></script>
     <script src="./js/main.js"></script>
 </head>
 <body>
@@ -217,18 +218,22 @@
                         <div class="right">
                             <form action="#">
                                 <div class="form-group">
-                                    <label for="name">name</label>
-                                    <input type="text" id="name">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" placeholder="성함을 입력해주세요">
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">email</label>
-                                    <input type="text" id="email">
+                                    <label for="phone">Phone</label>
+                                    <input type="text" id="phone" placeholder="연락처를 입력해주세요">
                                 </div>
                                 <div class="form-group">
-                                    <label for="msg">message</label>
-                                    <input type="text" id="msg">
+                                    <label for="email">mail</label>
+                                    <input type="text" id="email" placeholder="메일 주소를 입력해주세요">
                                 </div>
-                                <button>전송</button>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" rows="5" placeholder="내용을 입력해주세요"></textarea>
+                                </div>
+                                <input type="button" name="submit" class="button" value="메일보내기">
                             </form>
                         </div>
                     </div>

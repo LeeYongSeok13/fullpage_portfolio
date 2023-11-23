@@ -43,4 +43,25 @@ $(function () {
     centerPadding: "30px",
     slidesToShow: 1,
   });
+
+  $(document).ready(function () {
+    emailjs.init("iFKPgaCdX3Oroae2T");
+    $("input[name=submit]").click(function () {
+      var templateParams = {
+        name: $("input[id=name]").val(),
+        phone: $("input[id=phone]").val(),
+        email: $("input[id=email]").val(),
+        message: $("textarea[id=message]").val(),
+      };
+
+      emailjs.send("gmail", "template_3vfp69m", templateParams).then(
+        function (response) {
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        function (error) {
+          console.log("FAILED", error);
+        }
+      );
+    });
+  });
 });
