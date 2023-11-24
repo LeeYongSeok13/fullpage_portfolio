@@ -360,13 +360,6 @@
     box-shadow: 0 0 10px #719ECE;
 }
 
-.section05 .contact-me .right .button {
-    width: 100%;
-    padding: 1rem;
-    background-color: #3ddbfb;
-    border: none;
-    color:black;
-}
 @keyframes upDown {
     0% {
         bottom: 1rem;

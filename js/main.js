@@ -48,18 +48,18 @@ $(function () {
     emailjs.init("iFKPgaCdX3Oroae2T");
     $("input[name=submit]").click(function () {
       var templateParams = {
-        name: $("input[id=name]").val(),
-        phone: $("input[id=phone]").val(),
-        email: $("input[id=email]").val(),
-        message: $("textarea[id=message]").val(),
+        name: $("input[name=name]").val(),
+        phone: $("input[name=phone]").val(),
+        email: $("input[name=email]").val(),
+        message: $("textarea[name=message]").val(),
       };
 
-      emailjs.send("gmail", "template_3vfp69m", templateParams).then(
+      emailjs.send("service_dfkvpw9", "template_3vfp69m", templateParams).then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
         },
         function (error) {
-          console.log("FAILED", error);
+          console.log("FAILED...", error);
         }
       );
     });
