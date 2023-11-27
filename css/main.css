@@ -360,6 +360,19 @@
     box-shadow: 0 0 10px #719ECE;
 }
 
+.section05 .contact-me .right .btn {
+    width: 100%;
+    height: 2rem;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+.section05 .contact-me .right .btn:hover {
+    border: none;
+    background-color: #6affff;
+}
 @keyframes upDown {
     0% {
         bottom: 1rem;

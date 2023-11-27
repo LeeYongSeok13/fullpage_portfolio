@@ -54,14 +54,11 @@ $(function () {
         message: $("textarea[name=message]").val(),
       };
 
-      emailjs.send("service_dfkvpw9", "template_3vfp69m", templateParams).then(
-        function (response) {
-          console.log("SUCCESS!", response.status, response.text);
-        },
-        function (error) {
-          console.log("FAILED...", error);
-        }
-      );
+      emailjs
+        .send("service_dfkvpw9", "template_3vfp69m", templateParams)
+        .then(function () {
+          alert("성공적으로 메일을 보냈습니다!");
+        });
     });
   });
 });
