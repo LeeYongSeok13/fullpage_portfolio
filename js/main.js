@@ -38,6 +38,11 @@ $(function () {
   $("#header .container nav ul li:nth-child(5) a").on("click", function () {
     $("#header").css("color", "#000000");
   });
+
+  $(".do-inner:nth-child(1)").on("click", function () {
+    $(".hidden-content:nth-child(1)").addClass("on");
+  });
+
   $(".portfolio-inner").slick({
     centerMode: true,
     centerPadding: "30px",

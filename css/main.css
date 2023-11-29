@@ -168,6 +168,28 @@
     margin: 1rem 0;
 }
 
+.section02 .hidden .hidden-content {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    width:400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000000;
+}
+
+.section02 .hidden .hidden-content.on {
+    display: block;
+    visibility: visible;
+}
+
+.section02 .hidden.on {
+    display: block;
+    visibility: visible;
+}
+
 .section03 .slide .fp-overflow{
     float: left;
 }
