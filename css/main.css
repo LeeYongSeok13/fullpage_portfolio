@@ -212,14 +212,13 @@
 .section03 .portfolio-me .portfolio-inner {
     width: 1200px;
     height: 500px;
-    border: 1px solid #000000;
-    padding: 2rem;
+    margin: 0 auto;
 }
 
 .section03 .portfolio-me .portfolio-inner figure {
     border: 1px solid #000000;
     text-align: center;
-    height: 434px;
+    height: 500px;
 }
 
 .section03 .portfolio-me .portfolio-inner figure img {

@@ -44,9 +44,7 @@ $(function () {
   });
 
   $(".portfolio-inner").slick({
-    centerMode: true,
-    centerPadding: "30px",
-    slidesToShow: 1,
+    arrows: false,
   });
 
   $(document).ready(function () {
