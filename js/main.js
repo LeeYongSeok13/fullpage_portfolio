@@ -45,6 +45,17 @@ $(function () {
 
   $(".portfolio-inner").slick({
     arrows: false,
+    centerMode: true,
+    centerPadding: "0px",
+    slidesToShow: 3,
+  });
+
+  $(".section03 .portfolio-me .arrow i:nth-child(1)").on("click", function () {
+    $(".portfolio-inner").slick("slickPrev");
+  });
+
+  $(".section03 .portfolio-me .arrow i:nth-child(2)").on("click", function () {
+    $(".portfolio-inner").slick("slickNext");
   });
 
   $(document).ready(function () {

@@ -215,17 +215,42 @@
     margin: 0 auto;
 }
 
-.section03 .portfolio-me .portfolio-inner figure {
-    border: 1px solid #000000;
-    text-align: center;
+.section03 .portfolio-me .portfolio-inner div{
+    width: 1200px;
     height: 500px;
 }
+
 
 .section03 .portfolio-me .portfolio-inner figure img {
     width: 200px;
     height: 250px;
 }
 
+.section03 .portfolio-me .arrow i{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    cursor: pointer;
+}
+
+
+.section03 .portfolio-me .arrow i:nth-child(1) {
+    margin: 0 0 0 -800px;
+}
+
+.section03 .portfolio-me .arrow i:nth-child(1):hover {
+    animation: arrowLeft 1s ease-in-out infinite;
+}
+
+.section03 .portfolio-me .arrow i:nth-child(2) {
+    margin: 0 0 0 800px;
+}
+
+.section03 .portfolio-me .arrow i:nth-child(2):hover {
+    animation: arrowRight 1s ease-in-out infinite;
+}
 .section03 .container .portfolio-inner .skills ul li {
     padding: 0.3rem;
 }
@@ -403,5 +428,29 @@
     }
     100% {
         bottom: 2rem;
+    }
+}
+
+@keyframes arrowLeft {
+    0% {
+        margin: 0 0 0 -800px;
+    }
+    50% {
+        margin: 0 0 0 -850px;
+    }
+    100% {
+        margin: 0 0 0 -800px;
+    }
+}
+
+@keyframes arrowRight {
+    0% {
+        margin: 0 0 0 800px;
+    }
+    50% {
+        margin: 0 0 0 850px;
+    }
+    100% {
+        margin: 0 0 0 800px;
     }
 }
