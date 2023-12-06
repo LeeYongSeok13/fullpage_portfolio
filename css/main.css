@@ -220,15 +220,22 @@
     height: 500px;
 }
 
+.section03 .portfolio-me .portfolio-inner figure {
+    height: 450px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
 
 .section03 .portfolio-me .portfolio-inner figure img {
     width: 200px;
     height: 250px;
+    margin: 0 auto;
 }
 
 .section03 .portfolio-me .arrow i{
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 6rem;
