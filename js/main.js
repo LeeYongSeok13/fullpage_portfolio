@@ -46,7 +46,7 @@ $(function () {
   $(".portfolio-inner").slick({
     arrows: false,
     centerMode: true,
-    centerPadding: "0px",
+    centerPadding: "30px",
     slidesToShow: 3,
   });
 

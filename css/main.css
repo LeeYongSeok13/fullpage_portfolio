@@ -222,7 +222,6 @@
 
 .section03 .portfolio-me .portfolio-inner figure {
     height: 450px;
-    text-align: center;
     border: 1px solid #000;
 }
 
@@ -231,6 +230,10 @@
     width: 200px;
     height: 250px;
     margin: 0 auto;
+}
+
+.section03 .portfolio-me .portfolio-inner figure a {
+    font-size: 1.2rem;
 }
 
 .section03 .portfolio-me .arrow i{
