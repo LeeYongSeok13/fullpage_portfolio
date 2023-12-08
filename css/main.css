@@ -185,9 +185,23 @@
     visibility: visible;
 }
 
-.section02 .hidden.on {
-    display: block;
-    visibility: visible;
+.section02 .hidden .hidden-content button {
+    border: none;
+    background: transparent;
+    float: right;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.2rem;
+}
+
+.section02 .hidden .hidden-content .icon {
+    padding: 2rem;
+}
+
+
+.section02 .hidden .hidden-content:nth-child(1) .icon i {
+    color:#fc490b;
+    font-size: 5rem;
 }
 
 .section03 .slide .fp-overflow{

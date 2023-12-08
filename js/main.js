@@ -43,6 +43,10 @@ $(function () {
     $(".hidden-content:nth-child(1)").addClass("on");
   });
 
+  $(".hidden .hidden-content button").on("click", function () {
+    $(".hidden-content:nth-child(1)").removeClass("on");
+  });
+
   $(".portfolio-inner").slick({
     arrows: false,
     centerMode: true,
