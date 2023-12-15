@@ -304,6 +304,13 @@
     margin: 0 30px;
     padding: 10px 20px;
     border:1px solid #000000;
+    border-radius: 15px;
+}
+
+.section03 .portfolio-me>div .pf-right .txt .site a:hover {
+    background: #719ECE;
+    color: #ffffff;
+    transition: 0.5s;
 }
 .section04 .container .about-self .about-left {
     float: left;
