@@ -39,13 +39,6 @@ $(function () {
     $("#header").css("color", "#000000");
   });
 
-  $(".portfolio-inner").slick({
-    arrows: false,
-    centerMode: true,
-    centerPadding: "30px",
-    slidesToShow: 3,
-  });
-
   $(".section03 .portfolio-me .arrow i:nth-child(1)").on("click", function () {
     $(".portfolio-inner").slick("slickPrev");
   });
@@ -53,6 +46,8 @@ $(function () {
   $(".section03 .portfolio-me .arrow i:nth-child(2)").on("click", function () {
     $(".portfolio-inner").slick("slickNext");
   });
+
+  $(".portfolio-me").slick();
 
   $(document).ready(function () {
     emailjs.init("iFKPgaCdX3Oroae2T");
