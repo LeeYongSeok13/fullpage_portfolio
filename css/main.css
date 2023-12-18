@@ -108,7 +108,6 @@
 
 .section02 .do-me .do-inner {
     height: auto;
-    border: 1px solid #000000;
 }
 
 .section02 .do-me .do-inner .do-inner-left {
@@ -120,7 +119,7 @@
     font-family: 'Caveat Brush', cursive;
     font-size: 1.5rem;
     padding: 10px 20px;
-    border: 1px solid #000;
+    border: 1px solid #000000;
     border-radius: 15px;
 }
 
@@ -138,7 +137,6 @@
 .section02 .do-me .do-inner .do-inner-right {
     float: left;
     width: 50%;
-    border: 1px solid #000;
 }
 
 .section02 .do-me .do-inner .do-inner-right h4 {
@@ -308,6 +306,12 @@
     color: #719ECE;
     animation: arrowRight 1s ease-in-out infinite;
     transition: 0.3s;
+}
+
+.section04 .direction-inner p {
+    text-align: center;
+    font-size: 1.7rem;
+    
 }
 
 .section05 .contact-me::after {
