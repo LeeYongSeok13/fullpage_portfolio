@@ -84,8 +84,7 @@
 }
 
 .section01 p {
-    max-width: 50%;
-    margin: 0 auto;
+    margin-top: 3rem;
     font-size: 1.5rem;
 }
 
@@ -108,128 +107,64 @@
 }
 
 .section02 .do-me .do-inner {
-    width: 18%;
-    padding: 2rem;
-    float: left;
-    background-color: white;
-    margin-right: 2.5%;
-    bottom: 0;
-    cursor: pointer;
-}
-
-.section02 .do-me .do-inner:last-child{
-    margin-right: 0;
-}
-
-.section02 .do-me .do-inner:nth-child(1) .icon i {
-    font-size: 2.5rem;
-    color: #fc490b;
-}
-
-.section02 .do-me .do-inner:nth-child(1):hover {
-    background-color: #fc490b;
-    color: #ffffff;
-}
-
-.section02 .do-me .do-inner:nth-child(1):hover .icon i {
-    color: #ffffff;
-}
-.section02 .do-me .do-inner:nth-child(2) .icon i {
-    font-size: 2.5rem;
-    color: #0071bb;
-}
-
-.section02 .do-me .do-inner:nth-child(2):hover {
-    background-color: #0071bb;
-    color: #ffffff;
-}
-
-.section02 .do-me .do-inner:nth-child(2):hover .icon i {
-    color: #ffffff;
-}
-
-.section02 .do-me .do-inner:nth-child(3) .icon i {
-    font-size: 2.5rem;
-    color: #ffd000;
-}
-
-.section02 .do-me .do-inner:nth-child(3):hover {
-    background-color: #ffd000;
-    color: #ffffff;
-}
-
-.section02 .do-me .do-inner:nth-child(3):hover .icon i {
-    color: #ffffff;
-}
-
-.section02 .do-me .do-inner:nth-child(4) .icon i {
-    font-size: 2.5rem;
-    color: #61dbfb;
-}
-
-
-.section02 .do-me .do-inner:nth-child(4):hover {
-    background-color: #61dbfb;
-    color: #ffffff;
-}
-
-.section02 .do-me .do-inner:nth-child(4):hover .icon i {
-    color: #ffffff;
-}
-
-.section02 .do-me .do-inner:nth-child(5) .icon i {
-    font-size: 2.5rem;
-    color: #7b09f8;
-}
-
-.section02 .do-me .do-inner:nth-child(5):hover {
-    background-color: #7b09f8;
-    color: #ffffff;
-}
-
-.section02 .do-me .do-inner:nth-child(5):hover .icon i {
-    color: #ffffff;
-}
-
-.section02 .do-me .do-inner .content h3 {
-    font-size: 1.8rem;
-    margin: 1rem 0;
-}
-
-.section02 .hidden .hidden-content {
-    position: absolute;
-    display: none;
-    visibility: hidden;
-    width:400px;
-    height: 400px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: auto;
     border: 1px solid #000000;
 }
 
-.section02 .hidden .hidden-content.on {
-    display: block;
-    visibility: visible;
+.section02 .do-me .do-inner .do-inner-left {
+    float: left;
+    width: 50%;
 }
 
-.section02 .hidden .hidden-content button {
-    border: none;
-    background: transparent;
-    float: right;
-    font-size: 1.2rem;
-    cursor: pointer;
-    padding: 0.2rem;
+.section02 .do-me .do-inner .do-inner-left a {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 15px;
 }
 
-.section02 .hidden .hidden-content .icon {
-    padding: 2rem;
+.section02 .do-me .do-inner .do-inner-left a:hover {
+    background: #719ECE;
+    color: #ffffff;
+    transition: 0.3s;
 }
 
+.section02 .do-me .do-inner .do-inner-left h2 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 3.5rem;
+    color: #719ECE;
+}
+.section02 .do-me .do-inner .do-inner-right {
+    float: left;
+    width: 50%;
+    border: 1px solid #000;
+}
 
-.section02 .hidden .hidden-content:nth-child(1) .icon i {
-    color:#fc490b;
-    font-size: 5rem;
+.section02 .do-me .do-inner .do-inner-right h4 {
+    font-family: 'Caveat Brush', cursive;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    color: #719ECE;
+}
+
+.section02 .do-me .do-inner .do-inner-right .about .about-inner span {
+    margin: 0.5rem 0;
+    width: 50%;
+    float: left;
+}
+
+.section02 .do-me .do-inner .do-inner-right .career .career-inner span {
+    margin: 0.5rem 0;
+    width: 100%;
+    float: left;
+}
+
+.section02 .do-me .do-inner .do-inner-right .skills .skills-inner span {
+}
+
+.section03 {
+    position: relative;
 }
 
 .section03 .slide .fp-overflow{
@@ -271,7 +206,6 @@
     float: right;
     width: 450px;
     height: 450px;
-    border: 1px solid #000;
 }
 
 .section03 .portfolio-me>div .pf-right .txt{
@@ -281,7 +215,7 @@
 }
 
 .section03 .portfolio-me>div .pf-right .txt h3 {
-    margin-top:3rem;
+    margin-top:8rem;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -292,8 +226,12 @@
     gap: 0.8rem;
 }
 
-.section03 .portfolio-me>div .pf-right .txt .desc em {
+.section03 .portfolio-me>div .pf-right .txt .desc strong {
     font-size: 1.2rem;
+}
+
+.section03 .portfolio-me>div .pf-right .txt .desc i {
+    font-size: 1.5rem;
 }
 
 .section03 .portfolio-me>div .pf-right .txt .site {
@@ -301,6 +239,8 @@
 }
 
 .section03 .portfolio-me>div .pf-right .txt .site a {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 1.5rem;
     margin: 0 30px;
     padding: 10px 20px;
     border:1px solid #000000;
@@ -312,71 +252,62 @@
     color: #ffffff;
     transition: 0.5s;
 }
-.section04 .container .about-self .about-left {
-    float: left;
-    width: 50%;
+
+.section03 .slick-dots {
+    position: absolute;
+    display: flex;
+    top: 95%;
+    left:50%;
+    transform: translateX(-50%);
+    gap: 1rem;
 }
 
-.section04 .container .about-self .about-right {
-    float: right;
-    width: 50%;
+.section03 .slick-dots li {
+    font-size: 0;
 }
 
-.section04 input[type=radio] {
-    display: none;
+.section03 .slick-dots li button {
+    width: 15px;
+    height: 15px;
+    border: none;
+    background: #000000;
+    border-radius: 50%;
+    transition: 0.3s;
 }
 
-#tab-1:checked ~ .tab label:nth-child(1),
-#tab-2:checked ~ .tab label:nth-child(2),
-#tab-3:checked ~ .tab label:nth-child(3),
-#tab-4:checked ~ .tab label:nth-child(4) {
-    background-color: rgba(61,219,251,1);
-    box-shadow: none;
+.section03 .slick-dots .slick-active button {
+    font-size: 0;
+    background: #719ECE;
+    transition: 0.3s;
 }
 
-.content > div {
-    display: none;
-}
-
-#tab-1:checked ~ .content div:nth-child(1),
-#tab-2:checked ~ .content div:nth-child(2),
-#tab-3:checked ~ .content div:nth-child(3),
-#tab-4:checked ~ .content div:nth-child(4) {
-    display: block;
-}
-
-.tab {
-    overflow: hidden;
-}
-
-.tab label {
-    font-size: 1.3rem;
+.section03 .arrow i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7rem;
     cursor: pointer;
-    float: left;
-    width:25%;
-    text-align: center;
-    padding: 0.3rem 0;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    user-select: none;
-    -webkit-user-select: none;
 }
 
-.section04 .content {
-    background-color: rgba(61,219,251,0.25);
-    min-height: 20rem;
+.section03 .arrow i:nth-child(1) {
+    margin: 0 0 0 -800px;
 }
 
-.section04 .content > div {
-    padding: 2rem;
-    line-height: 1.5;
-    font-size: 1.3rem;
+.section03 .arrow i:nth-child(1):hover {
+    color: #719ECE;
+    animation: arrowLeft 1s ease-in-out infinite;
+    transition: 0.3s;
 }
 
-.section04 p {
-    font-size: 2rem;
-    font-weight: 500;
+.section03 .arrow i:nth-child(2) {
+    margin: 0 0 0 800px;
+}
+
+.section03 .arrow i:nth-child(2):hover {
+    color: #719ECE;
+    animation: arrowRight 1s ease-in-out infinite;
+    transition: 0.3s;
 }
 
 .section05 .contact-me::after {

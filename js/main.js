@@ -39,15 +39,18 @@ $(function () {
     $("#header").css("color", "#000000");
   });
 
-  $(".section03 .portfolio-me .arrow i:nth-child(1)").on("click", function () {
-    $(".portfolio-inner").slick("slickPrev");
+  $(".portfolio-me").slick({
+    arrows: false,
+    dots: true,
   });
 
-  $(".section03 .portfolio-me .arrow i:nth-child(2)").on("click", function () {
-    $(".portfolio-inner").slick("slickNext");
+  $(".section03 .arrow i:nth-child(1)").on("click", function () {
+    $(".portfolio-me").slick("slickPrev");
   });
 
-  $(".portfolio-me").slick();
+  $(".section03 .arrow i:nth-child(2)").on("click", function () {
+    $(".portfolio-me").slick("slickNext");
+  });
 
   $(document).ready(function () {
     emailjs.init("iFKPgaCdX3Oroae2T");
