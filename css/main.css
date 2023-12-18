@@ -115,6 +115,19 @@
     width: 50%;
 }
 
+.section02 .do-me .do-inner .do-inner-left figure {
+    position:relative;
+    width: auto;
+    height: 450px;
+    margin-bottom: 1.5rem;
+}
+
+.section02 .do-me .do-inner .do-inner-left figure img {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+}
+
 .section02 .do-me .do-inner .do-inner-left a {
     font-family: 'Caveat Brush', cursive;
     font-size: 1.5rem;
